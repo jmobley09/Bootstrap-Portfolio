@@ -21,7 +21,7 @@
 }
 
 .navbar-right {
-    float: right!important;
+    float: right;
     margin-right: -15px;
     position: fixed;
     right: 25%;
@@ -84,6 +84,21 @@ footer {
     color: white;
 }
 
-.foothead {
-    background-color: #4aaaa5
+.thumbnail {
+    width: 130%;
+    height: 130%;
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    bottom: 12%;
+    left: 1%;
+    background-color: #4aaaa5;
+    width: 98%;
+    text-align: center;
+}
+
+h4 {
+    color: #fff;
 }
