@@ -4,10 +4,11 @@
     position: fixed;
     width: 100%;
     font-size: large;
+    z-index: 2;
 }
 
 .navbar-brand {
-    background-color: #4aaaa5;
+    background-color: #64aaa7;
     color: #ffffff;
     position: fixed;
     height: 12%;
@@ -31,19 +32,21 @@
 a {
     color: #666666;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    z-index: 2;
 }
 
 body {
-    width: 960px;
-    background-image: url(../images/gravel.png);
-    z-index: -1;
+    background-image: url(../images/folk-pattern-black.png);
 }
 
 .container {
-    position: fixed;
-    top: 25%;
-    left: 25%;
+    position: relative;
+    top: 20%;
+    left: .5%;
     width: 960px;
+    background-color: #c9c9c9;
+    z-index: 1;
+    padding: 2%
 }
 
  /* Photo Parameters */
@@ -51,25 +54,22 @@ body {
     max-width: 410px;
     max-height: 300px;
     padding: 2%;
+    margin-left: 40%;
+    margin-bottom: 10%
  }
 
 .aboutText {
     float: right;
 }
 
-.container {
-    background-color: #ffffff;
-    padding: 1%;
-}
-
 /* sets the page title on all pages */
 .title {
-    color: #4aaaa5;
+    color: #64aaa7;
     font-size: xx-Large;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-weight: bold;
     padding: 3%;
-    border-bottom: 3px solid #cccccc;
+    border-bottom: 3px solid #7c7c7c;
     width: 95%;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -85,18 +85,20 @@ footer {
 }
 
 .thumbnail {
-    width: 130%;
-    height: 130%;
+    max-width: 410px;
+    max-height: 300px;
+    padding: 2%;
     position: relative;
 }
 
 .caption {
     position: absolute;
-    bottom: 12%;
-    left: 1%;
-    background-color: #4aaaa5;
-    width: 98%;
+    bottom: 15%;
+    left: 3%;
+    background-color: #64aaa7;
+    width: 90%;
     text-align: center;
+    font-size: 150%;
 }
 
 h4 {
